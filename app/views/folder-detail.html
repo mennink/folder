@@ -1,0 +1,61 @@
+<!--<p>{{filtered.length}} artikelen binnen de selectie</p>-->
+<div class="row">
+    <div class="col-md-4">
+        <select class="form-control" data-ng-model="searchTerm.tag" data-ng-options="artikel.tag as artikel.tag for artikel in tagList = (artikelen | unique:'tag')">
+            <option value="">-- Alle tags --</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <div class="input-group">
+            <span class="input-group-addon">Totaal</span>
+            <input type="text" class="form-control" value="{{getTotal(searchTerm.tag)| currency : '€'}}">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-default pull-right">Opslaan</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <input ng-model="query.ARTNR" type="text" class="form-control" placeholder="Artikelnummer">
+    </div>
+    <div class="col-md-4">
+        <input ng-model="query.omschrijving" type="text" class="form-control" placeholder="Omschrijving">
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-default pull-right">Verzenden</button>
+    </div>
+</div>
+<div class="row marketing">
+    <table ng-table="tableParams" show-filter="true" class="table table-hover table-striped">
+        <tbody ng-repeat="group in $groups | filter:searchTerm.tag:allowNullValue" >
+            <tr class="ng-table-group">
+                <td colspan="{{$columns.length}}">
+                    <a href="" ng-click="group.$hideRows = !group.$hideRows">
+                        <span class="glyphicon" ng-class="{ 'glyphicon-chevron-right': group.$hideRows, 'glyphicon-chevron-down': !group.$hideRows }"></span>
+                        <strong>{{ group.value }}</strong>
+                    </a>
+                </td>
+            </tr>
+            <tr ng-hide="group.$hideRows" ng-repeat="artikel in sub = (group.data | filter:query | filter:searchTerm:allowNullValue)">
+                <td sortable="'ARTNR'" data-title="'ArtN'">{{artikel.ARTNR}}</td>
+                <!--<td data-title="'tag'">{{artikel.tag}}</td>-->
+                <td data-title="'IVP'">{{artikel.IVP}}</td>
+                <td data-title="'VP'">{{artikel.VP}}</td>
+                <td data-title="'Omschrijving'">{{artikel.omschrijving}}</td>
+                <td data-title="'ZBPR'">{{artikel.ZBPR | currency : "€"}}</td>
+                <td data-title="'Omdoos'">{{artikel.Omdoos}}</td>
+                <td data-title="'Laag'">{{artikel.Laag}}</td>
+                <td data-title="'Pallet'">{{artikel.Pallet}}</td>
+                <td data-title="'Intekening'">
+                    <input ng-model="artikel.aantal" class="form-control input-sm" placeholder="Aantal" tooltip-html-unsafe="{{getHistory(artikel)}}" tooltip-trigger="focus">
+
+
+                </td>
+                <!--<td data-title="'display volume'">{{artikel.aantal * artikel.ZBPR | currency : "€"}}</td>
+                <td data-title="'totaal volume'">{{artikel.aantal}}</td>-->
+                <td data-title="'omzet'">{{artikel.aantal * artikel.ZBPR | currency : "€"}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

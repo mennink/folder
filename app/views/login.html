@@ -1,0 +1,13 @@
+<iframe src="sink.html" name="sink"
+        style="display:none"></iframe>
+<form name="loginForm" class="form-signin" action="/sink.html" target="sink" method="post" ng-submit="login(credentials)" novalidate form-autofill-fix>
+    <h2 class="form-signin-heading">Please sign in</h2>
+
+    <input type="text" class="form-control" placeholder="Gebruikersnaam" required autofocus id="username" ng-model="credentials.username">
+    <input type="password" id="password" class="form-control" placeholder="Wachtwoord" required ng-model="credentials.password">
+    <label class="checkbox">
+        <input type="checkbox" value="remember-me">Remember me
+    </label>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+
+</form>

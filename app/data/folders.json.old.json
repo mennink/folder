@@ -1,0 +1,109 @@
+[{
+  "id": 1,
+  "code": "C",
+  "jaar": 2014,
+  "nummer": 27,
+  "omschrijving": "EMTE Weekfolder",
+  "status": "Ingediend",
+  "begin": "2014-06-29",
+  "eind":"2014-07-05"
+},{
+  "id": 2,
+  "code": "V",
+  "jaar": 2014,
+  "nummer": 27,
+  "omschrijving": "EMTE Instore folder",
+  "status": "Fout",
+  "begin": "2014-06-29",
+  "eind":"2014-07-05"
+},{
+  "id": 3,
+  "code": "J",
+  "jaar": 2014,
+  "nummer": 27,
+  "omschrijving": "CP Weekfolder",
+  "status": "Open",
+  "begin": "2014-06-29",
+  "eind":"2014-07-05"
+},{
+  "id": 4,
+  "code": "C",
+  "jaar": 2014,
+  "nummer": 26,
+  "omschrijving": "EMTE Weekfolder",
+  "status": "Definitief",
+  "begin": "2014-06-22",
+  "eind":"2014-06-28"
+},{
+  "id": 5,
+  "code": "V",
+  "jaar": 2014,
+  "nummer": 26,
+  "omschrijving": "EMTE Instore folder",
+  "status": "Definitief",
+  "begin": "2014-06-22",
+  "eind":"2014-06-28"
+},{
+  "id": 6,
+  "code": "J",
+  "jaar": 2014,
+  "nummer": 26,
+  "omschrijving": "CP Weekfolder",
+  "status": "Definitief",
+  "begin": "2014-06-22",
+  "eind":"2014-05-28"
+},{
+  "id": 7,
+  "code": "C",
+  "jaar": 2014,
+  "nummer": 25,
+  "omschrijving": "EMTE Weekfolder",
+  "status": "Definitief",
+  "begin": "2014-06-15",
+  "eind":"2014-06-21"
+},{
+  "id": 8,
+  "code": "V",
+  "jaar": 2014,
+  "nummer": 25,
+  "omschrijving": "EMTE Instore folder",
+  "status": "Definitief",
+ "begin": "2014-06-15",
+  "eind":"2014-06-21"
+},{
+  "id": 9,
+  "code": "J",
+  "jaar": 2014,
+  "nummer": 25,
+  "omschrijving": "CP Weekfolder",
+  "status": "Definitief",
+  "begin": "2014-06-15",
+  "eind":"2014-06-21"
+},{
+  "id": 10,
+  "code": "C",
+  "jaar": 2014,
+  "nummer": 24,
+  "omschrijving": "EMTE Weekfolder",
+  "status": "Definitief",
+  "begin": "2014-06-08",
+  "eind":"2014-06-14"
+},{
+  "id": 11,
+  "code": "V",
+  "jaar": 2014,
+  "nummer": 24,
+  "omschrijving": "EMTE Instore folder",
+  "status": "Definitief",
+  "begin": "2014-06-08",
+  "eind":"2014-06-14"
+},{
+  "id": 12,
+  "code": "J",
+  "jaar": 2014,
+  "nummer": 24,
+  "omschrijving": "CP Weekfolder",
+  "status": "Definitief",
+  "begin": "2014-06-08",
+  "eind":"2014-06-14"
+}]

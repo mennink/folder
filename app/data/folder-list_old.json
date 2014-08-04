@@ -1,0 +1,136 @@
+[{
+  "id": 1,
+  "naam": "Food Vers",
+  "type": "Restaurant",
+  "van": "2014-04-14",
+  "tot": "2014-05-14",
+  "artikelen": [{
+    "nummer": 11111,
+    "omschrijving": "Kalfsentrecote rosé",
+    "prijs": "10.95",
+    "aantal":0
+  }, {
+    "nummer": 22222,
+    "omschrijving": "Houthakkersteak",
+    "prijs": "7.95",
+    "aantal":0
+  }, {
+    "nummer": 33333,
+    "omschrijving": "Carpaccio",
+    "prijs": "13.95",
+    "aantal":0
+  }, {
+    "nummer": 44444,
+    "omschrijving": "Crispy Bacon",
+    "prijs": "7.95",
+    "aantal":0
+  } ]
+}, {
+  "id": 2,
+  "naam": "Food Vers",
+  "type": "Restaurant",
+  "van": "2014-04-14",
+  "tot": "2014-05-14",
+  "artikelen": [{
+    "nummer": 11111,
+    "omschrijving": "Kalfsentrecote rosé",
+    "prijs": "10.95",
+    "aantal":0
+  }, {
+    "nummer": 22222,
+    "omschrijving": "Houthakkersteak",
+    "prijs": "7.95",
+    "aantal":0
+  }, {
+    "nummer": 33333,
+    "omschrijving": "Carpaccio",
+    "prijs": "13.95",
+    "aantal":0
+  }, {
+    "nummer": 44444,
+    "omschrijving": "Crispy Bacon",
+    "prijs": "7.95",
+    "aantal":0
+  } ]
+}, {
+  "id": 3,
+  "naam": "Non-Food",
+  "type": "Restaurant",
+  "van": "2014-04-14",
+  "tot": "2014-05-14",
+  "artikelen": [{
+    "nummer": 11111,
+    "omschrijving": "Kalfsentrecote rosé",
+    "prijs": "10.95",
+    "aantal":0
+  }, {
+    "nummer": 22222,
+    "omschrijving": "Houthakkersteak",
+    "prijs": "7.95",
+    "aantal":0
+  }, {
+    "nummer": 33333,
+    "omschrijving": "Carpaccio",
+    "prijs": "13.95",
+    "aantal":0
+  }, {
+    "nummer": 44444,
+    "omschrijving": "Crispy Bacon",
+    "prijs": "7.95",
+    "aantal":0
+  } ]
+}, {
+  "id": 4,
+  "naam": "Non-Food",
+  "type": "Snackbars en cafetaria's",
+  "van": "2014-04-14",
+  "tot": "2014-05-14",
+  "artikelen": [{
+    "nummer": 11111,
+    "omschrijving": "Kalfsentrecote rosé",
+    "prijs": "10.95",
+    "aantal":0
+  }, {
+    "nummer": 22222,
+    "omschrijving": "Houthakkersteak",
+    "prijs": "7.95",
+    "aantal":0
+  }, {
+    "nummer": 33333,
+    "omschrijving": "Carpaccio",
+    "prijs": "13.95",
+    "aantal":0
+  }, {
+    "nummer": 44444,
+    "omschrijving": "Crispy Bacon",
+    "prijs": "7.95",
+    "aantal":0
+  } ]
+}, {
+  "id": 5,
+  "naam": "Wijn",
+  "type": "--",
+  "van": "2014-04-14",
+  "tot": "2014-05-14",
+  "artikelen": [{
+    "nummer": 11111,
+    "omschrijving": "Kalfsentrecote rosé",
+    "prijs": "10.95",
+    "aantal":0
+  }, {
+    "nummer": 22222,
+    "omschrijving": "Houthakkersteak",
+    "prijs": "7.95",
+    "aantal":0
+  }, {
+    "nummer": 33333,
+    "omschrijving": "Carpaccio",
+    "prijs": "13.95",
+    "aantal":0
+  }, {
+    "nummer": 44444,
+    "omschrijving": "Crispy Bacon",
+    "prijs": "7.95",
+    "aantal":0
+  } ]
+}]

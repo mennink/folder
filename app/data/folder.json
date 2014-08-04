@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "naam": "Food Vers",
+        "type": "Restaurant",
+        "van": "2014-04-14",
+        "tot": "2014-05-14"
+    }, {
+        "id": 2,
+        "naam": "Food Vers",
+        "type": "Restaurant",
+        "van": "2014-04-14",
+        "tot": "2014-05-14"
+    }
+    , {
+        "id": 3,
+        "naam": "Non-Food",
+        "type": "Restaurant",
+        "van": "2014-04-14",
+        "tot": "2014-05-14"
+    }
+    , {
+        "id": 4,
+        "naam": "Non-Food",
+        "type": "Snackbars en cafetaria's",
+        "van": "2014-04-14",
+        "tot": "2014-05-14"
+    }
+    , {
+        "id": 5,
+        "naam": "Wijn",
+        "type": "--",
+        "van": "2014-04-14",
+        "tot": "2014-05-14"
+    }
+]
